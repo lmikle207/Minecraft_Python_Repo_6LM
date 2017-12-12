@@ -10,7 +10,5 @@ length = 6
 blockType = 4
 air = 0
 mc.setBlocks(x, y, z, x + width, y + height, z + length, blockType)
-trees = 4
-trees = trees * 2
-skeletons = 8
-skeletons = skeletons /2
+
+
