@@ -1,0 +1,11 @@
+import time
+from mcpi.minecraft import Minecraft
+mc = Minecraft.create()
+
+while True:
+    pos = mc.player.getPos()
+    mc.setBlock(pos.x, pos.y, pos.z, 38)
+    pos = mc.player.getPos()
+    time.sleep(0.2)
+    print("True")
+print("Unreachable")
