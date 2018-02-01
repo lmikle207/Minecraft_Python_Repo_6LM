@@ -3,4 +3,11 @@ mc = Minecraft.create()
 
 import time
 
-time.
+time.sleep(60)
+
+blockHits = mc.events.pollBlockHits()
+
+blockHitsLength = len(blockHits)
+mc.postToChat("Your score is " + str(blockHitsLength))
+
+
